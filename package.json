@@ -1,0 +1,32 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is React by Akhil",
+  "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hey-akhilhere/React.git"
+  },
+  "keywords": [],
+  "author": "Akhil Naga Sai krishna Tadikonda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hey-akhilhere/React/issues"
+  },
+  "homepage": "https://github.com/Hey-akhilhere/React#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserlist":[
+    "last 1 Chrome version",
+    "last 2 Firefox version"
+  ]
+}
