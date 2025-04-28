@@ -1,70 +1,79 @@
 .header {
-    
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid brown;
-    margin-right:1px;
-    /* margin-bottom: 30px; */
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+
+  background-color: green;
+  border: 1px solid black;
 }
 
-.logo{
-    width: 100px;
-    margin-top:  30px;
-    margin-left: 30px;
-    margin-bottom:30px;
+.logo {
+  width: 100px;
+  padding: 30px;
 }
 
-.search{
-    padding: 10px;
+.search {
+  padding: 10px;
 }
-.body{
-    margin-top:30px;
-    
-    
+.body {
+  margin: 10px;
 }
-
-.restaurantcards{
-    width: 228px;
-    height: 320;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    font-size: 12px;
-    text-align: center;
-    background-color: rgb(238, 229, 229);
-    padding: 4px;
-   
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
 }
 
-.RestroContainer{
-    display: flex;
-    flex-wrap: wrap;
-}
-.restaurantcards:hover{
-    border: 1px solid gray;
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
+.restaurantcards {
+  width: 228px;
+  height: 350px;
+  margin: 10px;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(238, 229, 229);
 }
 
-.card-img{
-    width: 226px;
-    height:196px;
-
+.RestroContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.restaurantcards:hover {
+  border: 1px solid gray;
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.nav-items{
-    
-    padding: 15px 25px;
+.login {
+  border: 5px;
+  padding: 10px;
 }
-.nav-items> ul {
-    font-size : 24px;
-    display: flex ;
-    list-style: none;
+.shimmer-cards {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
 }
-.nav-items >ul > li 
-{
-    padding: 10px;
-    margin: 10px;
+.card-img {
+  width: 226px;
+  height: 196px;
+}
+
+.nav-items {
+  padding: 15px 25px;
+}
+.nav-items > ul {
+  font-size: 24px;
+  display: flex;
+  list-style: none;
+}
+.nav-items > ul > li {
+  /* padding: 10px; */
+  margin: 10px;
+}
+.filter {
+  display: flex;
 }
