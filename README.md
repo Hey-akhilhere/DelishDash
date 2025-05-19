@@ -40,7 +40,10 @@
 
 - A hook is normal java script function that reacts gives us.
 - useState() used to create a state variable. - Named import.
-- useEffect
+- useEffect has an empty, dependencies and no dependency
+- In empty dependency it will run only once
+- In dependency it will run every time when the listed dependencies changes
+- In no dependency it will run After every render. 
 
 # Fetching Data From Backend to UI
 
@@ -48,3 +51,13 @@
   - Loads -> API -> Render
   - Loads -> Render -> API -> Render
 - Second Approach is best for better UX.
+
+# React Class Component Life cycle
+
+- When the class is loaded : constructor is called first then render method is called after rendering then component did mount is called.
+
+# Mounting phase in React
+- React has two phases in mounting - 1. Render phase 2. Commit Phase
+- Render phase consists of constructor calling and rendering
+- In commit phase react updates DOM and component did mount is called.
+- To improve the performance, react batches the rendering phase of instances and then do the DOM manipulation. 
